@@ -14,7 +14,7 @@ public class exercise15 {
                 num2 = num1;
                 num1 = num;
             } else if (num < num1) {
-                if (num > num2 || (num1 == num2 && num < num2 && num != 0)){
+                if (num > num2 || (num1 == num2 && num < num2) && num != 0){
                     num2 = num;
                 }
             }
