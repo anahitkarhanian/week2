@@ -7,7 +7,6 @@ public class exercise5 {
         Scanner scanner = new Scanner(System.in);
         int num = scanner.nextInt();
         int[] arr = new int [num];
-        int count = 0;
         for (int i = 0; i < num; i++) {
             arr[i] = scanner.nextInt();
         }
